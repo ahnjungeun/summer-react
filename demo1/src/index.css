@@ -1,0 +1,38 @@
+body {
+  background-color: darkseagreen;
+}
+
+.app-container {
+  display: flex;
+  /* default=nowrap */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie-container {
+  width: 250px;
+  margin: 1rem;
+  background-color: honeydew;
+  border-radius: 0 1rem;
+  box-shadow: 3px 3px 5px gray;
+}
+
+.movie-container img {
+  max-width: 100%;
+  border-radius: 0 1rem;
+}
+
+.movie-info {
+  display: flex;
+  padding: 10%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.movie-info h4 {
+  margin: 0;
+}
+
+.movie-info span {
+  margin-left: 2rem;
+}
